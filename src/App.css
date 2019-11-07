@@ -44,3 +44,7 @@ img{
 p{
   text-align: center;
 }
+
+.currentDate{
+  display: none;
+}
