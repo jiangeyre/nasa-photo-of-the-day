@@ -18,7 +18,7 @@ function CardData(){
 
     return (
         <div>
-            {<NASACard key={nasaData.data} title={nasaData.title} explanation={nasaData.explanation} Img={nasaData.hdurl}/>}
+            <NASACard key={nasaData.data} title={nasaData.title} explanation={nasaData.explanation} Img={nasaData.hdurl}/>
         </div>
     )
 }
