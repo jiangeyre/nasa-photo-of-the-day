@@ -4,10 +4,9 @@ import NASACard from "./NASACard";
 import styled from "styled-components";
 
 const Button = styled.button`
-    color: lightskyblue;
     font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
-    background-color: midnightblue;
+    background-color: silver;
     border-radius: 20px;
     width: 125px;
     height: 40px;

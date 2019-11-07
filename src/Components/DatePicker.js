@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import DatePicker from 'react-date-picker';
 import Moment from 'react-moment';
+import styled from 'styled-components';
+
+const DatePickerContainer = styled.div`
+  background-color: ghostwhite;
+`;
+
 class MyApp extends Component {
      
     
@@ -15,7 +21,7 @@ class MyApp extends Component {
     
     render() {
       return (
-        <div>
+        <DatePickerContainer>
           <DatePicker
             onChange={this.onChange}
             value={this.state.date}
@@ -26,7 +32,7 @@ class MyApp extends Component {
             </Moment>
           </p>
             
-        </div>
+        </DatePickerContainer>
         
       );
     }
