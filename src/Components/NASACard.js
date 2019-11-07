@@ -5,8 +5,8 @@ const NASACard = props => {
 
     return(
         <div className="nasaCard" key={props.date}>
+            <h1>{props.title}</h1>
             <img src={props.Img} alt="space NASA" />
-            <h2>{props.title}</h2>
             <p>{props.explanation}</p>
         </div>
     )
