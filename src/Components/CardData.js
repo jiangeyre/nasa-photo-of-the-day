@@ -1,7 +1,17 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import NASACard from "./NASACard";
-import DatePickerer from "./DatePicker";
+import styled from "styled-components";
+
+const Button = styled.button`
+    color: lightskyblue;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    background-color: midnightblue;
+    border-radius: 20px;
+    width: 125px;
+    height: 40px;
+`;
 
 let datee;
 window.addEventListener("load", () => {
@@ -37,7 +47,7 @@ function CardData(){
 
     return (
         <div>
-            <button className="refreshBtn" onClick={update} >Refresh</button>
+            <Button className="refreshBtn" onClick={update} >Blast off!</Button>
             <NASACard key={nasaData.data} title={nasaData.title} explanation={nasaData.explanation} Img={nasaData.hdurl}/>
         </div>
     )
