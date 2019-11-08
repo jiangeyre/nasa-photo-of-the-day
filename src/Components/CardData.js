@@ -46,7 +46,7 @@ function CardData(){
 
     return (
         <div>
-            <Button className="refreshBtn" onClick={update} >Blast off!</Button>
+            <Button className="refreshButt" onClick={update} >Blast off!</Button>
             <NASACard key={nasaData.data} title={nasaData.title} explanation={nasaData.explanation} Img={nasaData.hdurl}/>
         </div>
     )

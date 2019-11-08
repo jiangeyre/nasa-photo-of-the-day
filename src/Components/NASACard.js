@@ -59,9 +59,10 @@ const DescriptionContainer = styled.div`
 const Description = styled.p`
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
-    width: 75%;
+    width: 69%;
     border: 1px solid black;
     background-color: gainsboro;
+    padding: 3%;
 `;
 
 const NASACard = props => {

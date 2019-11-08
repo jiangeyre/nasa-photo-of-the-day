@@ -25,6 +25,7 @@ class MyApp extends Component {
           <DatePicker
             onChange={this.onChange}
             value={this.state.date}
+            maxDate={new Date()}
           />
           <p  className="currentDate">
            <Moment format="YYYY-MM-DD">
