@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+
+.nasaCard{
+  width: 80%;
+  margin-left: 10%;
+}
+
+img{
+  width: 75%;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+.currentDate{
+  display: none;
+}
